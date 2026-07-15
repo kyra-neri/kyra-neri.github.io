@@ -1,0 +1,107 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    height: 150px;
+    margin: 0 20px;
+}
+
+h1 {
+    font-family:  Georgia, 'Times New Roman', Times, serif
+}
+
+h2 {
+   font-family:  Tahoma, sans-serif;
+}
+
+p, li, dt, dd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header div {
+    float: left;
+    width: 20%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    width: fit-content
+}
+
+.logo-text, .credit {
+    font-size: 0.5em;
+}
+nav {
+    float: right;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.current-page a {
+    color:rgb(63, 93, 150);
+}
+
+a {
+    color: rgb(19, 61, 2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(214, 150, 11);
+}
+
+main, section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.events {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+
+
+dt {
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+button {
+    padding: 20px;
+    background-color:rgb(214, 245, 184);
+    border: none;
+    border-radius: 5%;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+    a {
+        color: white;
+    }
+}
+
+h2, main, section, p {
+    text-align: center;
+}
+.community {
+    text-align: initial;
+}
+.community div {
+    padding: 10px 30px;
+}
+
+.community .credit {
+    text-align: initial;
+}
