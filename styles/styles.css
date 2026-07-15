@@ -44,7 +44,7 @@ nav {
     margin-top: 40px;
 }
 
-li {
+nav li {
     list-style-type: none;
 }
 
@@ -98,13 +98,16 @@ button:hover {
 h2, main, section, p {
     text-align: center;
 }
-.community {
-    text-align: initial;
-}
-.community div {
-    padding: 10px 30px;
+
+ol {
+    width: min-content;
+    margin: 0 auto;
 }
 
-.community .credit {
-    text-align: initial;
+ol li{
+    margin-bottom: 15px;
+}
+
+ol div {
+    margin-bottom: 35px;
 }
